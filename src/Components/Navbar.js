@@ -9,10 +9,10 @@ function NavBar() {
         <nav>
             <ul>
                 <li>
-                    <NavLink to='Explanation'>Explanation</NavLink>
+                    <NavLink to='Calculator'>Calculator</NavLink>
                 </li>
                 <li>
-                    <NavLink to='Calculator'>Calculator</NavLink>
+                    <NavLink to='Explanation'>Explanation</NavLink>
                 </li>
             </ul>
         </nav>

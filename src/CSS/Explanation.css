@@ -1,6 +1,11 @@
 #explanation table {
     margin: auto auto;
     border-collapse: collapse;
+    overflow: scroll;
+}
+
+#explanation #meaning {
+    display: none;
 }
 
 #explanation td {

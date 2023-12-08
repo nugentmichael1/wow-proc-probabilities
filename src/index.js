@@ -3,14 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
-
+//Import Routes
 import Landing from './Pages/Landing';
 import CalculatorPage from './Pages/Calculator'
 import Explanation from './Pages/Explanation'
 import Chart from './Pages/Chart'
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-// import { Routes, Route } from 'react-router-dom';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 const router = createBrowserRouter([
@@ -19,7 +19,7 @@ const router = createBrowserRouter([
     element: <Landing />,
     children: [
       {
-        index: true, 
+        index: true,
         element: <CalculatorPage />
       },
       {
@@ -39,15 +39,6 @@ const router = createBrowserRouter([
 
 root.render(
   <React.StrictMode>
-    {/* <Routes>
-      <Route path='/' element={<Header />} />
-    </Routes>
-    <Routes>
-      <Route path='/' element={<Landing />} />
-      <Route path='/Explanation' element={<Explanation />} />
-      <Route path='/Calculator' element={<Calculator />} />
-    </Routes> */}
-    {/* <App /> */}
     <RouterProvider router={router} />
   </React.StrictMode>
 );

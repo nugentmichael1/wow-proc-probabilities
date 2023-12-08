@@ -37,12 +37,13 @@ function Calculator() {
         <table id='calculator'>
             <caption>
                 <h2>Proc Success Rate Calculator</h2>
+                <h2>"At Least One" Probability</h2>
             </caption>
             <tbody>
                 <tr id='iesr'>
                     <td>
                         <label htmlFor='iesrt'>
-                            Individual Event Success Rate (Decimal)
+                            Individual Event Probability (Decimal)
                         </label>
                     </td>
                     <td>
@@ -68,7 +69,7 @@ function Calculator() {
                 <tr id='overall'>
                     <td>
                         <label htmlFor='overallt'>
-                            Overall Probability at least one event succeeds (Decimal)
+                            "At Least One" Probability (Decimal)
                         </label>
                     </td>
                     <td>

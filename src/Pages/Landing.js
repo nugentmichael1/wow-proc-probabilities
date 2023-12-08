@@ -3,7 +3,7 @@ import Header from '../Components/Header'
 
 import '../CSS/Landing.css';
 
-import { Outlet, Link } from 'react-router-dom';
+import { Outlet, Navigate } from 'react-router-dom';
 // import { useRoute } from "react-router-dom";
 // import { useRoutes } from 'react-router-dom';
 import { initializeApp } from "firebase/app";
@@ -29,6 +29,8 @@ function Landing() {
       <div className="Landing">
         <Header />
 
+        {/* Default to calculator page */}
+        <Navigate to="/Calculator" replace={false} />
 
         <Outlet />
 
@@ -38,9 +40,5 @@ function Landing() {
   );
 
 }
-
-// export async function loader(){
-//   const page = await 
-// }
 
 export default Landing;

@@ -3,25 +3,17 @@
     flex-basis: 100%;
 }
 
-/* #header nav ul {
-    list-style-type: none;
-} */
-
-#header h1 {
-    /* display: inline; */
-    /* margin: 0 30%; */
-}
-
 #header nav a {
-    margin: 0 5vw;
+    margin: 0 2vw;
     text-decoration: none;
     color: white;
     font-size: x-large;
-
+    padding: 1vh 1vw;
+    border-radius: 25px;
+    background-color: brown;
 }
 
 #header nav a.active {
-    font-weight: bold;
     background-color: blue;
 }
 
@@ -30,6 +22,7 @@
     background-color: brown;
     margin: 1vh auto;
     border-radius: 25px;
+    max-width: 512px;
 }
 
 #header nav li {

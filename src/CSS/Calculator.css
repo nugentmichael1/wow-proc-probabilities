@@ -1,3 +1,7 @@
 #calculator {
     margin: auto auto;
 }
+
+#calculator caption {
+    display: none;
+}
