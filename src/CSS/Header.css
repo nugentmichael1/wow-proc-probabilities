@@ -1,0 +1,38 @@
+#header {
+    text-align: center;
+    flex-basis: 100%;
+}
+
+/* #header nav ul {
+    list-style-type: none;
+} */
+
+#header h1 {
+    /* display: inline; */
+    /* margin: 0 30%; */
+}
+
+#header nav a {
+    margin: 0 5vw;
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+
+}
+
+#header nav a.active {
+    font-weight: bold;
+    background-color: blue;
+}
+
+#header nav {
+    /* display: inline; */
+    background-color: brown;
+    margin: 1vh auto;
+    border-radius: 25px;
+}
+
+#header nav li {
+    list-style-type: none;
+    display: inline;
+}

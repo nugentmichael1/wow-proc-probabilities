@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
+import '../CSS/Calculator.css'
 
 
-
-function ProcSuccessCalc() {
+function Calculator() {
 
     const calculateIndivid = () => {
         const Q = 1 - overallProbability; //opposite of overall rate
@@ -34,7 +34,7 @@ function ProcSuccessCalc() {
     const [overallProbability, updateOverallProbability] = useState(calculateOverall());
 
     return (
-        <table>
+        <table id='calculator'>
             <caption>
                 <h2>Proc Success Rate Calculator</h2>
             </caption>
@@ -42,7 +42,7 @@ function ProcSuccessCalc() {
                 <tr id='iesr'>
                     <td>
                         <label htmlFor='iesrt'>
-                            Individual Event Success Rate
+                            Individual Event Success Rate (Decimal)
                         </label>
                     </td>
                     <td>
@@ -68,7 +68,7 @@ function ProcSuccessCalc() {
                 <tr id='overall'>
                     <td>
                         <label htmlFor='overallt'>
-                            Overall Probability at least one event succeeds
+                            Overall Probability at least one event succeeds (Decimal)
                         </label>
                     </td>
                     <td>
@@ -84,4 +84,4 @@ function ProcSuccessCalc() {
     )
 }
 
-export default ProcSuccessCalc
+export default Calculator

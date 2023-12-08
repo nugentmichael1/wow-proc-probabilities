@@ -1,6 +1,11 @@
-.App {
+.Landing {
   text-align: center;
+  /* display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: center; */
 }
+
 
 .App-header {
   background-color: #282c34;
@@ -13,15 +18,6 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* .App img, .App p, .App h2 {
+  display: inline-block;
+} */

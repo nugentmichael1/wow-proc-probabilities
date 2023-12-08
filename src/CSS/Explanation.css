@@ -1,0 +1,36 @@
+#explanation table {
+    margin: auto auto;
+    border-collapse: collapse;
+}
+
+#explanation td {
+    border: 1px solid;
+}
+
+#truth tr.desiredOutcome {
+    background-color: green;
+}
+
+#truth tr.undesiredOutcome {
+    background-color: red;
+}
+
+#truth td#totalSum {
+    background-color: white;
+}
+
+/* #explanation {
+    float:left;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#explanation img {
+    object-fit: contain;
+    flex-shrink: 5;
+    flex: 24%;
+}
+
+#explanation div {
+    flex: 24%;
+} */
