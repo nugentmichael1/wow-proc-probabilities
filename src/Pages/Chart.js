@@ -1,14 +1,17 @@
 import React from 'react'
+import Chart from '../Components/Chart'
 
-function Chart() {
+function ChartPage() {
     return (
         <div>
-            <h2>
+            {/* <h2>
                 Chart
-            </h2>
-            <p>This section should illustrate the relationship between  number of events and overall success rate.</p>
+            </h2> */}
+            <p>This section illustrates the relationship between the variables (Individual Rate, Number of Events, and Overall Success Rate) via a selected domain (inclusive) and range.</p>
+            <Chart />
+
         </div>
     )
 }
 
-export default Chart
+export default ChartPage

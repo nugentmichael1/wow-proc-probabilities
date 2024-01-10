@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import Landing from './Pages/Landing';
 import CalculatorPage from './Pages/Calculator'
 import Explanation from './Pages/Explanation'
-import Chart from './Pages/Chart'
+import ChartPage from './Pages/Chart'
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
@@ -32,7 +32,7 @@ const router = createBrowserRouter([
       },
       {
         path: "Chart",
-        element: <Chart />,
+        element: <ChartPage />,
       }]
   }
 ])

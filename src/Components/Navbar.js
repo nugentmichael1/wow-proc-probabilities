@@ -12,6 +12,9 @@ function NavBar() {
                     <NavLink to='Calculator'>Calculator</NavLink>
                 </li>
                 <li>
+                    <NavLink to='Chart'>Chart</NavLink>
+                </li>
+                <li>
                     <NavLink to='Explanation'>Explanation</NavLink>
                 </li>
             </ul>
